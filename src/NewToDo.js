@@ -11,6 +11,11 @@ class NewToDo extends Component {
         )
     }
 
+   //  handlesubmit = (e) => {
+    //    e.preventDefault()
+     //   this.props.addTodo(this.state);
+     //   this.setState({ content: '' })
+         
     handlesubmit = (e) => {
         e.preventDefault()
         this.props.addTodo(this.state);
