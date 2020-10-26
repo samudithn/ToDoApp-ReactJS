@@ -11,7 +11,8 @@ const ToDo = ({todos, deleteTodo}) => {
         )
       })
     ) : (
-      <p className="center">No To Do's left..</p>
+        //added new comment
+      <p className="center">No To Do's left well user..</p>
     );
   
     return (
